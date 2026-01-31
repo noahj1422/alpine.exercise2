@@ -10,14 +10,13 @@
 }
 
 
-.numberButton {
+#numberButton {
     position: absolute;
     background-color:olive;
-    background-size: 150%;
+    background-size: 25%;
     align-content: center;
     color: white;
-    font-size: 150%;
-    
+    font-size: 25%;
 }
 
 h1 {

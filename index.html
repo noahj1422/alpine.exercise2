@@ -12,7 +12,7 @@
     <div class = "container">
       <div x-data="{items: ['Noah', 'Emme', 'Jack', 'Albert', 'Denise', 'Gary', 'Henry', 'Josie', 'Jeremiah', 'Kevin'], 
       selected: ''}">
-      <button class="numberButton" @click = "selected = items[Math.floor(Math.random() * 10)]">Generate A Name</button>
+      <button id="numberButton" @click = "selected = items[Math.floor(Math.random() * 10)]">Generate A Name</button>
       <h1 x-text="selected"></h1>
       </div>
     </div>
