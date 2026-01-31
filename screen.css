@@ -2,17 +2,19 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    justify-items: center;
     gap: 50px;
-    background-color: lightblue;
+    background-color: #add8e6;
+    height: 1000px;
+    width: 1000px;
 }
 
 
 .numberButton {
     position: absolute;
     background-color:olive;
-    background-size: 250%;
+    background-size: 150%;
     align-content: center;
-    top: 500px;
     color: white;
     font-size: 150%;
     
