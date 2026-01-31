@@ -1,4 +1,11 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+
+.numberButton {
+    position: absolute;
+    background-color:olive;
+    align-content: center;
+    color: white;
+}
+
+h1 {
+    text-align: center;
 }

@@ -5,15 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Homepage</title>
     <link rel="stylesheet" href="screen.css">
+    <script defer src="https://cdn.jsdelivr.net/npm/alpinejs@3.x.x/dist/cdn.min.js"></script>
+    <script src="index.js"></script>
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
-    <script src="index.js"></script>
+    <div x-data="{items: ['Noah', 'Emme', 'Jack', 'Albert', 'Denise', 'Gary', 'Henry', 'Josie', 'Jeremiah', 'Kevin'], 
+    selected: ''}">
+    <button class="numberButton" @click = "selected = items[Math.floor(Math.random() * 10)]">Generate A Name</button>
+    <h1 x-text="selected"></h1>
+  </div>
   </body>
 </html>
